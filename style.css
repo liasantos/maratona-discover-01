@@ -2,8 +2,8 @@
 
 :root {
   --dark-blue: #363f5f; /*variável*/
-  --green: #49aa26;
-  --light-green: #3dd705;
+  --blue: #263eaa;
+  --light-blue: #05add7;
   --red: #e92929;
 }
 
@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  background: #f0f2f5;
+  background: #d9e8ff;
   font-family: "Poppins", sans-serif; /*https://fonts.google.com/*/
 }
 
@@ -51,12 +51,12 @@ h2 {
 
 /* Links & Buttons ============== */
 a {
-  color: var(--green);
+  color: var(--blue);
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--light-green);
+  color: var(--light-blue);
 }
 
 button {
@@ -64,14 +64,14 @@ button {
     height: 50px;
     border: none;
     color: white;
-    background: var(--green);
+    background: var(--blue);
     padding: 0;
     border-radius: 0.25rem;
     cursor: pointer;
 }
 
 button:hover {
-    background: var(--light-green);
+    background: var(--light-blue);
 }
 .button.new {
   display: inline-block; /*mantém o tamanho somente no elemento*/
@@ -96,7 +96,7 @@ button:hover {
 
 /* Header ============= */
 header {
-  background: #2d4a22;
+  background: var(--dark-blue);
   padding: 2rem 0 10rem;
   text-align: center;
 }
@@ -139,7 +139,7 @@ header {
 }
 
 .card.total {
-  background: var(--green);
+  background: var(--blue);
   color: white;
 }
 
@@ -152,7 +152,7 @@ header {
 #data-table {
     width: 100%;
   border-spacing: 0 0.5rem;
-  color: #969cb3;
+  color: #444c6d;
 }
 
 table thead tr th:first-child,
@@ -184,7 +184,7 @@ table tbody td {
   background: white;
   /*border-spacing: 0 0.5rem;*/
   padding: 1rem 2rem;
-  color: #969cb3;
+  color: #02145e;
 }
 
 td.description {
